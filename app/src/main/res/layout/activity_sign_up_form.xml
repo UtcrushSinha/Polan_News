@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signUpFormActivity"
+    android:orientation="vertical"
+    android:paddingBottom="30dp"
+    android:paddingTop="30dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:textAlignment="center"
+  >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create an account"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:id="@+id/editUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Username"
+        android:inputType="text"
+        android:drawableStart="@drawable/baseline_boy_24"
+        android:background="@drawable/edit_text"
+        android:layout_marginBottom="20dp"
+
+        />
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:drawableStart="@drawable/baseline_email_24"
+        android:background="@drawable/edit_text"
+        android:layout_marginBottom="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/baseline_password_24"
+        android:background="@drawable/edit_text"
+        android:layout_marginBottom="20dp"
+        />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+
+        android:background="@drawable/button_bordertwo"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"
+
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="or"
+
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign With Google"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:background="@drawable/button_border"
+        android:layout_marginBottom="20dp"
+
+
+
+
+        />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+
+       android:id="@+id/applebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign With Apple"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:background="@drawable/button_border"
+        android:layout_marginBottom="20dp"
+
+
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By sign in, accept the terms of service,"
+
+        android:gravity="center"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guidelines and have read Privacy Policy. "
+
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
